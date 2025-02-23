@@ -1,0 +1,55 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+}
+
+h1 {
+    padding-top: 10%;
+}
+
+h3 {
+    display: inline;
+}
+
+h3 a:hover {
+    font-weight: 800;
+}
+
+/* .image {
+    padding-top: 10%;
+} */
+
+h2 {
+    padding: 0 15% 10% 0;
+}
+
+
+p {
+    padding: 5% 15% 0 0;
+    margin-bottom: 25%;
+}
+
+@media screen and (max-width: 768px) and (max-width: 1366px) {
+
+    .row {
+        flex-direction: column;
+
+    }
+
+    .col {
+        width: 100%;
+
+    }
+    h2 {
+        padding: 0;
+    }
+}

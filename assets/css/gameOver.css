@@ -1,0 +1,47 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+    border-bottom: 1px black solid;
+    padding: 5% 0;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 38px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 768px) and (max-width: 1366px) {
+
+    .row {
+        flex-direction: column;
+
+    }
+
+    .col {
+        width: 100%;
+
+    }
+}

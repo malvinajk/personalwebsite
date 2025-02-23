@@ -1,0 +1,62 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about {
+    width: 50%;
+    padding: 5% 5% 15% 0;
+}
+
+h1 {
+    margin-bottom: 10%;
+}
+
+
+.image-section {
+    width: 50%;
+    padding: 0 0 15% 0;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.text {
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .text {
+        column-count: 2;
+        column-gap: 15%;
+    }
+}
+@media screen and (max-width: 768px) and (max-width: 1366px) {
+
+    .row {
+        flex-direction: column;
+
+    }
+
+    .col {
+        width: 100%;
+
+    }
+}

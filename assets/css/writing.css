@@ -1,0 +1,55 @@
+
+
+ul {
+    padding: 0 0 0 15%;
+}
+
+li {
+    padding: 3%;
+    padding-right: 10%;
+}
+
+/* .logo {
+    width: 8%;
+    padding-bottom: 2%;
+} */
+
+.col {
+    width: 50%;
+    float: left;
+}
+
+.fiction {
+    /* border-right: 1px solid black; */
+    padding-right: 5%;
+    padding-left: 0;
+}
+
+.nonfic {
+    padding-right: 0;
+    /* padding-left: 10%; */
+}
+
+#hover-image {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    display: none;
+    z-index: 1000;
+}
+
+@media screen and (max-width: 768px) and (max-width: 1366px) {
+
+    .row {
+        flex-direction: column;
+
+    }
+
+    .col {
+        width: 100%;
+
+    }
+}

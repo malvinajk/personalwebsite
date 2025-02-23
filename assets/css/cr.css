@@ -1,0 +1,120 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Quotes */
+q {
+    padding: 6%;
+    display: block;
+}
+
+/* Paragraphs */
+p {
+    margin: 0;
+}
+
+/* Spans */
+figcaption {
+    font-size: 13px;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 6%;
+}
+
+/* Columns */
+.col {
+    width: 50%;
+    float: left;
+}
+
+.about {
+    padding-right: 5%;
+    border-bottom: 1px black solid;
+}
+
+.about h2 {
+    padding-bottom: 40%;
+}
+
+/* Images */
+.image {
+    width: 50%;
+    padding: 5% 0 0 0;
+}
+
+.col .figure {
+    padding: 6% 6% 0 6%;
+}
+
+/* Headings */
+h1 {
+    margin-top: 0;
+}
+
+h2 {
+    padding: 5% 0;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0 auto;
+    clear: both;
+    text-align: left;
+}
+
+h3 {
+    font-size: 48px;
+    width: 100%;
+    margin: 0;
+    clear: both;
+}
+
+/* Full-width Elements */
+.thanks {
+    width: 100%;
+    float: left;
+    padding: 4%;
+    clear: both;
+    font-size: 24px;
+}
+
+li {
+    padding-top: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .col,
+    .about {
+        column-count: 1;
+        width: 100%;
+        float: none;
+        clear: both;
+    }
+
+    span {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    p {
+        padding: 0;
+    }
+}
